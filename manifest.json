@@ -1,0 +1,40 @@
+{
+    "manifest_version": 2
+   ,"name": "ねもうす channel viewer"
+   ,"version": "0.7.3"
+
+   ,"description": "ニコニコミュニティ掲示板拡張"
+   ,"author": "中村憲剛"
+   ,"homepage_url": "http://com.nicovideo.jp/community/co3314651"
+
+   ,"icons": {
+        "128": "images/128.png"
+    }
+
+   ,"content_scripts": [
+        {
+            "matches": [
+                "http://dic.nicovideo.jp/b/c/*",
+                "http://com.nicovideo.jp/*"
+            ]
+      		,"css": [
+      			"css/style.css"
+      			,"css/waitMe.min.css"
+      			,"css/jquery.contextMenu.css"
+      			]
+           ,"js": [
+                "js/jquery-3.1.1.min.js"
+                ,"js/jquery-ui.min.js"
+                ,"js/jquery.balloon.min.js"
+                ,"js/waitMe.min.js"
+                ,"js/jquery.contextMenu.js"
+                ,"js/gifffer.js"
+                ,"js/main.js"
+            ]
+        }
+    ]
+    ,"web_accessible_resources" : [
+    	"images/*"
+    ]
+
+}

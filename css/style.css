@@ -1,0 +1,114 @@
+
+.saveIcon {
+    width: 16px;
+    height: 16px;
+    background: url('./images/save.png');
+}
+
+.msgDiv {
+	margin-top: 3px;
+	margin-left: 10px;
+	font-weight: bold;
+	font-size: 14px;
+	font-family:'MS PGothic AA', 'MS PGothic', 'ＭＳ Ｐゴシック', 'Mona', 'IPAMonaPGothic', 'IPA モナー Pゴシック', sans-serif;
+}
+
+.settingDiv {
+	padding-top: 3px;
+	padding-left: 10px;
+	font-weight: bold;
+	font-size: 14px;
+	font-family:'MS PGothic AA', 'MS PGothic', 'ＭＳ Ｐゴシック', 'Mona', 'IPAMonaPGothic', 'IPA モナー Pゴシック', sans-serif;
+	color: #ffffff;
+}
+
+.context-menu-separator-top {
+  padding-top: 5px!important;
+}
+
+.context-menu-separator-bottom {
+  padding-top: 5px!important;
+  padding-bottom: 5px!important;
+  //margin: .35em 0;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.reshead {
+	height:20px;
+}
+
+.idMemo {
+	position:relative;left:550px;top:-20px;font-weight: bold;width:200px;min-width: 200px;min-height: 20px;
+}
+
+@-moz-document url-prefix(){
+	.idMemo {
+		position:relative;left:450px;top:-20px;font-weight: bold;width:200px;min-width: 200px;min-height: 20px;
+	}
+	.idMemo:focus {
+		border:2px;background-color:#CEEEFF;
+	}
+}
+
+
+#post-form {
+	position: fixed;
+	bottom: 48px;
+	right: 48px;
+}
+
+@media screen and ( max-width:1200px ) {
+	#post-form {
+		position: initial;
+		bottom: initial;
+		right: initial;
+	}
+}
+
+#modal-overlay{
+	width:100%;
+	height:120%;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:15;
+	display:none;
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:120%;
+	background-color:rgba(0,0,0,0.75);
+}
+
+.contextmenu{
+	font-size: 14px!important;
+}
+
+img.newOekaki{
+	border: 1px solid;
+	border-radius: 4px;
+}
+
+img.newOekaki:hover{
+	border: 1px solid #4286f4;
+	border-radius: 4px;
+}
+
+img.thumbnailOekaki{
+	border: 1px solid;
+	border-radius: 4px;
+}
+
+img.thumbnailOekaki:hover{
+	border: 1px solid #4286f4;
+	border-radius: 4px;
+}
+
+img.thumbnailPicture{
+	border: 1px solid #4286f4;
+}
+
+img.thumbnailPicture:hover{
+	border: 1px solid #ffbf59;
+}
