@@ -1,6 +1,10 @@
 # ねもうす-channel-viewer
 ニコニコミュニティ掲示板拡張
 
+## ダウンロード
+chrome版：http://unkochan.netgamers.jp/nemousu/ねもうす_channel_viewer-0.7.2.zip
+firefox版：http://unkochan.netgamers.jp/nemousu/ねもうす_channel_viewer-0.7.2.xpi
+
 ## 機能  
 ・続きを取得押すだけ新レスが表示される  
 ・書き込むを押した後の無駄なページに飛ばされない  
