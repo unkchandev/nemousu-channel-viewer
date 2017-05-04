@@ -2,8 +2,8 @@
 ニコニコミュニティ掲示板拡張
 
 ## ダウンロード
-chrome版：http://unkochan.netgamers.jp/nemousu/ねもうす_channel_viewer-0.7.2.zip
-firefox版：http://unkochan.netgamers.jp/nemousu/ねもうす_channel_viewer-0.7.2.xpi
+chrome版：http://unkochan.netgamers.jp/addon/ねもうす_channel_viewer-0.7.2.zip  
+firefox版：http://unkochan.netgamers.jp/addon/ねもうす_channel_viewer-0.7.2.xpi
 
 ## 機能  
 ・続きを取得押すだけ新レスが表示される  
