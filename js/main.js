@@ -1144,6 +1144,9 @@ function initEvent(){
 		}
 		
 		idInfo.memo = $(this).text();
+		if("" == idInfoJson[id]["memo"].trim()) {
+			delete idInfoJson[id];
+		}
 		
 		ls.setItem('idInfo', JSON.stringify(idInfoJson));
 		
